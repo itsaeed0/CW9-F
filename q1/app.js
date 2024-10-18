@@ -19,7 +19,6 @@ function myFunction() {
     if (theme === "dark") {
       document.body.classList.add("dark");
     } else {
-      // apply other theme (e.g., remove "dark" class)
       document.body.classList.remove("dark");
     }
   });
